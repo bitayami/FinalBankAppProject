@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1771839937168" clover="3.2.0">
-  <project timestamp="1771839937169" name="All files">
+<coverage generated="1771841038319" clover="3.2.0">
+  <project timestamp="1771841038319" name="All files">
     <metrics statements="37" coveredstatements="36" conditionals="30" coveredconditionals="28" methods="10" coveredmethods="9" elements="77" coveredelements="73" complexity="0" loc="37" ncloc="37" packages="1" files="1" classes="1"/>
     <file name="bank.js" path="C:\Users\ranji\FinalBankAppProject\src\bank.js">
       <metrics statements="37" coveredstatements="36" conditionals="30" coveredconditionals="28" methods="10" coveredmethods="9"/>
