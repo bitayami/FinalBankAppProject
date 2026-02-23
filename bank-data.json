@@ -1,0 +1,69 @@
+{
+  "accounts": [
+    {
+      "id": "ACC-5633",
+      "holderName": "Vittal",
+      "balance": 1e+23,
+      "createdAt": "2026-02-23T11:34:54.122Z",
+      "transactions": [
+        {
+          "type": "DEPOSIT",
+          "amount": 1000,
+          "timestamp": "2026-02-23T11:34:54.122Z",
+          "balanceAfter": 1000,
+          "description": "Initial deposit"
+        },
+        {
+          "type": "TRANSFER_IN",
+          "amount": 1e+23,
+          "timestamp": "2026-02-23T11:38:22.781Z",
+          "balanceAfter": 1e+23,
+          "description": "Transfer from ACC-9907"
+        }
+      ]
+    },
+    {
+      "id": "ACC-9907",
+      "holderName": "Radha",
+      "balance": 1e+50,
+      "createdAt": "2026-02-23T11:35:33.847Z",
+      "transactions": [
+        {
+          "type": "DEPOSIT",
+          "amount": 0,
+          "timestamp": "2026-02-23T11:35:33.847Z",
+          "balanceAfter": 0,
+          "description": "Initial deposit"
+        },
+        {
+          "type": "DEPOSIT",
+          "amount": 1e+50,
+          "timestamp": "2026-02-23T11:36:24.658Z",
+          "balanceAfter": 1e+50,
+          "description": "Deposit"
+        },
+        {
+          "type": "WITHDRAWAL",
+          "amount": 100,
+          "timestamp": "2026-02-23T11:37:23.009Z",
+          "balanceAfter": 1e+50,
+          "description": "Withdrawal"
+        },
+        {
+          "type": "TRANSFER_OUT",
+          "amount": 1e+23,
+          "timestamp": "2026-02-23T11:38:22.781Z",
+          "balanceAfter": 1e+50,
+          "description": "Transfer to ACC-5633"
+        },
+        {
+          "type": "TRANSFER_OUT",
+          "amount": 10000,
+          "timestamp": "2026-02-23T11:41:26.994Z",
+          "balanceAfter": 1e+50,
+          "description": "Transfer to ACC-1965"
+        }
+      ]
+    }
+  ]
+}
