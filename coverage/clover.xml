@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1771839937168" clover="3.2.0">
+  <project timestamp="1771839937169" name="All files">
+    <metrics statements="37" coveredstatements="36" conditionals="30" coveredconditionals="28" methods="10" coveredmethods="9" elements="77" coveredelements="73" complexity="0" loc="37" ncloc="37" packages="1" files="1" classes="1"/>
+    <file name="bank.js" path="C:\Users\ranji\FinalBankAppProject\src\bank.js">
+      <metrics statements="37" coveredstatements="36" conditionals="30" coveredconditionals="28" methods="10" coveredmethods="9"/>
+      <line num="3" count="16" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="16" count="12" type="stmt"/>
+      <line num="17" count="12" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="12" type="stmt"/>
+      <line num="23" count="12" type="stmt"/>
+      <line num="27" count="14" type="cond" truecount="4" falsecount="0"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="31" count="13" type="cond" truecount="5" falsecount="0"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="35" count="12" type="stmt"/>
+      <line num="36" count="12" type="stmt"/>
+      <line num="38" count="12" type="stmt"/>
+      <line num="46" count="12" type="stmt"/>
+      <line num="53" count="12" type="stmt"/>
+      <line num="54" count="12" type="stmt"/>
+      <line num="58" count="5" type="stmt"/>
+      <line num="59" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="61" count="4" type="cond" truecount="5" falsecount="0"/>
+      <line num="62" count="2" type="stmt"/>
+      <line num="64" count="2" type="stmt"/>
+      <line num="66" count="2" type="stmt"/>
+      <line num="73" count="2" type="stmt"/>
+      <line num="77" count="5" type="stmt"/>
+      <line num="78" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="80" count="4" type="cond" truecount="5" falsecount="0"/>
+      <line num="81" count="2" type="stmt"/>
+      <line num="83" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="84" count="1" type="stmt"/>
+      <line num="86" count="1" type="stmt"/>
+      <line num="88" count="1" type="stmt"/>
+      <line num="95" count="1" type="stmt"/>
+      <line num="99" count="2" type="stmt"/>
+      <line num="100" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="101" count="1" type="stmt"/>
+      <line num="105" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

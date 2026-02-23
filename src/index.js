@@ -3,9 +3,11 @@ const path = require('path');
 const readline = require('readline');
 const chalk = require('chalk');
 const Table = require('cli-table3');
+const Bank = require('./bank');
 
 const dataPath = path.resolve(process.cwd(), 'bank-data.json');
 let data = { accounts: [] };
+const bank = new Bank(data);
 let saving = false;
 
 const rl = readline.createInterface({
@@ -66,7 +68,7 @@ function formatMoney(value) {
   return new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: 'USD',
-  }).format(value);
+  }).format(value || 0);
 }
 
 function generateAccountId() {
@@ -394,6 +396,7 @@ async function exitApp() {
 
 async function main() {
   loadData();
+  const bank = new Bank(data);
 
   while (true) {
     console.clear();
